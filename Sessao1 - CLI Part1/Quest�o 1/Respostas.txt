@@ -1,0 +1,26 @@
+ Os assemblies de que o presente assembly depend
+	- mscorlib
+
+A versão do presente assembly
+	1.0.0.0
+
+Tipo do assembly (dll ou exe).
+	dll
+
+ A constituição da classe presente no assembly
+	_x: private int32
+	_y: private int32
+	.cctor : void()
+	.ctor : void(int32,int32)
+	Distance : int32(class Sessa1.Ponto)
+	ToString : string()
+
+ O comportamento dos métodos presentes
+
+	- .cctor - construtor static automático ?
+	- .ctor(int32,int32) - construtor com dois parâmetros que dá excepção caso os parâmetros sejam menores que 0
+	- Distance - calcula a distância entre o objecto this e o objecto Ponto passado como parâmetro
+	- ToString : método que imprime as coordenadas do Ponto {0},{1} (x,y)
+
+
+	
