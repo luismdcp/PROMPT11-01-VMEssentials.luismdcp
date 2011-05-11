@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "testep", "testep.exe", "{51194542-C98F-41D7-A9CD-039AA6585C4E}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao1 - CLI Part1\testep.exe
+		RemoteMachine = LUIS-PC
+		StartingDirectory = C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao1 - CLI Part1
+		Arguments = 
+		Environment = Default
+		LaunchingEngine = 92ef0900-2251-11d2-b72e-0000f87572ef
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51194542-C98F-41D7-A9CD-039AA6585C4E}.Debug|x86.ActiveCfg = Debug|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

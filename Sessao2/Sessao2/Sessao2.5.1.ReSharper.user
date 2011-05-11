@@ -1,0 +1,192 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5099" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="2346" fromTop="16" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="2594" fromTop="21" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="2090" fromTop="7" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5981" fromTop="25" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5981" fromTop="4" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="1858" fromTop="9" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5981" fromTop="17" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5981" fromTop="17" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="6018" fromTop="11" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5689" fromTop="21" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5689" fromTop="22" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5689" fromTop="14" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5666" fromTop="31" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="3027" fromTop="10" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="138" fromTop="9" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5666" fromTop="15" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="4128" fromTop="16" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5666" fromTop="39" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="2835" fromTop="9" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="862" fromTop="24" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="862" fromTop="19" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5665" fromTop="12" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="1196" fromTop="17" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="1072" fromTop="24" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5665" fromTop="6" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="381" fromTop="14" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="580" fromTop="21" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5665" fromTop="23" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5666" fromTop="26" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="4154" fromTop="7" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="StringBuilder`0" priority="0" />
+      <Item value="new" priority="7" />
+      <Item value="StringBuilder" priority="0" />
+      <Item value="buffer" priority="1" />
+      <Item value="TextWriter`0" priority="1" />
+      <Item value="StreamWriter`0" priority="0" />
+      <Item value="StreamWriter" priority="0" />
+      <Item value="Environment`0" priority="0" />
+      <Item value="t" priority="0" />
+      <Item value="writer" priority="7" />
+      <Item value="String`0" priority="4" />
+      <Item value="GetPropertiesHTML`0" priority="1" />
+      <Item value="if" priority="6" />
+      <Item value="prop" priority="8" />
+      <Item value="Type`0" priority="0" />
+      <Item value="typeof" priority="0" />
+      <Item value="static" priority="2" />
+      <Item value="bool" priority="0" />
+      <Item value="System" priority="0" />
+      <Item value="Reflection" priority="0" />
+      <Item value="PropertyInfo`0" priority="0" />
+      <Item value="foreach" priority="1" />
+      <Item value="property" priority="0" />
+      <Item value="Instance" priority="0" />
+      <Item value="Count`1" priority="0" />
+      <Item value="else" priority="3" />
+      <Item value="GetPropertiesHTMLv3`0" priority="0" />
+      <Item value="BindingFlags`0" priority="0" />
+      <Item value="Guid`0" priority="0" />
+      <Item value="return" priority="9" />
+      <Item value="filePath" priority="1" />
+      <Item value="string" priority="2" />
+      <Item value="fullPath" priority="4" />
+      <Item value="obj" priority="9" />
+      <Item value="var" priority="1" />
+      <Item value="Dictionary" priority="0" />
+      <Item value="int" priority="1" />
+      <Item value="object" priority="3" />
+      <Item value="dictionary" priority="5" />
+      <Item value="Dictionary&lt;int,object&gt;" priority="0" />
+      <Item value="di" priority="5" />
+      <Item value="Random`0" priority="0" />
+      <Item value="class" priority="1" />
+      <Item value="IEqualityComparer" priority="1" />
+      <Item value="DirectoryInfo`0" priority="3" />
+      <Item value="as" priority="2" />
+      <Item value="di1" priority="1" />
+      <Item value="null" priority="1" />
+      <Item value="di2" priority="1" />
+      <Item value="false" priority="0" />
+      <Item value="Enumerable`0" priority="0" />
+      <Item value="DateTime`0" priority="4" />
+      <Item value="dt" priority="1" />
+      <Item value="Convert`0" priority="1" />
+      <Item value="HashSet" priority="0" />
+      <Item value="HashSet&lt;object&gt;" priority="0" />
+      <Item value="Comparador`0" priority="0" />
+      <Item value="container" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="Append`0" priority="1" />
+      <Item value="AppendLine`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment">
+      <Item value="CurrentDirectory" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="Name" priority="0" />
+      <Item value="IsPrimitive" priority="0" />
+      <Item value="GetProperties`0" priority="1" />
+      <Item value="GetInterfaces`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamWriter">
+      <Item value="WriteLine`0" priority="4" />
+      <Item value="Close`0" priority="0" />
+      <Item value="Write`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="0" />
+      <Item value="Empty" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.PropertyInfo">
+      <Item value="GetType`0" priority="0" />
+      <Item value="PropertyType" priority="5" />
+      <Item value="Attributes" priority="0" />
+      <Item value="Name" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="1" />
+      <Item value="GetHashCode`0" priority="3" />
+      <Item value="Equals`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Reflection.BindingFlags">
+      <Item value="Public" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Guid">
+      <Item value="NewGuid`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="Contains`1" priority="0" />
+      <Item value="ContainsKey`0" priority="1" />
+      <Item value="Add`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.DirectoryInfo">
+      <Item value="FullName" priority="3" />
+      <Item value="GetHashCode`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="GetHashCode`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Object">
+      <Item value="Equals`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Linq.Enumerable">
+      <Item value="Range`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="GetEnumerator`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToShortDateString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToDateTime`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.HashSet`1">
+      <Item value="Contains`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="TryParse`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
