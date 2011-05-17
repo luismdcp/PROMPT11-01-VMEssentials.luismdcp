@@ -1,0 +1,5 @@
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao3\Sessao3Practica\Sessao3Practica\bin\Debug\Sessao3Practica.exe
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao3\Sessao3Practica\Sessao3Practica\bin\Debug\Sessao3Practica.pdb
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao3\Sessao3Practica\Sessao3Practica\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao3\Sessao3Practica\Sessao3Practica\obj\x86\Debug\Sessao3Practica.exe
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao3\Sessao3Practica\Sessao3Practica\obj\x86\Debug\Sessao3Practica.pdb

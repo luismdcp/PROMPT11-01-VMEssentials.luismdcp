@@ -1,0 +1,108 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="A6DF3CF1-CD32-452C-B11A-70E00FB92AE1/f:Program.cs" caret="1015" fromTop="27" />
+      <File id="A6DF3CF1-CD32-452C-B11A-70E00FB92AE1/f:Utils.cs" caret="266" fromTop="7" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="A6DF3CF1-CD32-452C-B11A-70E00FB92AE1/f:Utils.cs" caret="741" fromTop="26" />
+      <File id="A6DF3CF1-CD32-452C-B11A-70E00FB92AE1/f:Utils.cs" caret="475" fromTop="17" />
+      <File id="A6DF3CF1-CD32-452C-B11A-70E00FB92AE1/f:Program.cs" caret="991" fromTop="24" />
+      <File id="A6DF3CF1-CD32-452C-B11A-70E00FB92AE1/f:Program.cs" caret="537" fromTop="15" />
+      <File id="A6DF3CF1-CD32-452C-B11A-70E00FB92AE1/f:Utils.cs" caret="181" fromTop="7" />
+      <File id="A6DF3CF1-CD32-452C-B11A-70E00FB92AE1/f:Program.cs" caret="572" fromTop="16" />
+      <File id="A6DF3CF1-CD32-452C-B11A-70E00FB92AE1/f:Program.cs" caret="190" fromTop="10" />
+      <File id="A6DF3CF1-CD32-452C-B11A-70E00FB92AE1/f:Program.cs" caret="15" fromTop="1" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="var" priority="2" />
+      <Item value="rootFolder" priority="1" />
+      <Item value="foreach" priority="1" />
+      <Item value="if" priority="1" />
+      <Item value="pred" priority="0" />
+      <Item value="rootFile" priority="1" />
+      <Item value="ProcessFiles`0" priority="0" />
+      <Item value="directoryInfo" priority="0" />
+      <Item value="action" priority="1" />
+      <Item value="Delegate`0" priority="0" />
+      <Item value="public" priority="2" />
+      <Item value="static" priority="4" />
+      <Item value="delegate" priority="0" />
+      <Item value="bool" priority="2" />
+      <Item value="FileInfo`0" priority="1" />
+      <Item value="Helpers`0" priority="2" />
+      <Item value="Predicate" priority="0" />
+      <Item value="Action" priority="0" />
+      <Item value="DirectoryInfo`0" priority="0" />
+      <Item value="new" priority="1" />
+      <Item value="DirectoryInfo" priority="0" />
+      <Item value="TimeSpan`0" priority="0" />
+      <Item value="TimeSpan" priority="0" />
+      <Item value="int" priority="1" />
+      <Item value="true" priority="0" />
+      <Item value="fi" priority="5" />
+      <Item value="DateTime`0" priority="0" />
+      <Item value="intervalo" priority="0" />
+      <Item value="long" priority="0" />
+      <Item value="size" priority="0" />
+      <Item value="return" priority="0" />
+      <Item value="void" priority="0" />
+      <Item value="Console`0" priority="1" />
+      <Item value="String`0" priority="0" />
+      <Item value="InvalidProgramException`0" priority="0" />
+      <Item value="PredicateImplementation`0" priority="1" />
+      <Item value="ActionImplementation`0" priority="1" />
+      <Item value="di" priority="0" />
+      <Item value="Func&lt;FileInfo,bool&gt;" priority="0" />
+      <Item value="Action&lt;FileInfo&gt;" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.DirectoryInfo">
+      <Item value="GetFiles`0" priority="0" />
+      <Item value="GetDirectories`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Sessao3Practica.Helpers">
+      <Item value="Predicate`0" priority="0" />
+      <Item value="Action`0" priority="0" />
+      <Item value="ProcessFiles`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.FileInfo">
+      <Item value="LastWriteTime" priority="2" />
+      <Item value="Length" priority="1" />
+      <Item value="FullName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="0" />
+      <Item value="ReadLine`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToShortDateString`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

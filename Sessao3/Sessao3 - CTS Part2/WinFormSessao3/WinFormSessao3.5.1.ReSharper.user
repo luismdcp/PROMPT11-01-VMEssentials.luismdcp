@@ -1,0 +1,245 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:EventDetails.cs" caret="125" fromTop="6" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:Program.cs" caret="330" fromTop="15" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:Form1.cs" caret="2430" fromTop="67" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:SessionRecorder.cs" caret="559" fromTop="21" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:SessionRecorder.cs" caret="2545" fromTop="16" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:SessionRecorder.cs" caret="2846" fromTop="29" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:SessionRecorder.cs" caret="2846" fromTop="9" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:SessionRecorder.cs" caret="607" fromTop="22" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:EventDetails.cs" caret="579" fromTop="14" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:EventDetails.cs" caret="29" fromTop="1" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:SessionRecorder.cs" caret="2836" fromTop="22" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:EventDetails.cs" caret="618" fromTop="17" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:SessionRecorder.cs" caret="3129" fromTop="22" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:Form1.cs" caret="1113" fromTop="2" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:SessionRecorder.cs" caret="374" fromTop="6" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:SessionRecorder.cs" caret="141" fromTop="5" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:SessionRecorder.cs" caret="4376" fromTop="26" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:SessionRecorder.cs" caret="3380" fromTop="7" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:SessionRecorder.cs" caret="4412" fromTop="26" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:Form1.cs" caret="598" fromTop="6" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:Form1.cs" caret="2085" fromTop="24" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:Form1.cs" caret="1957" fromTop="15" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:Form1.cs" caret="2279" fromTop="16" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:Form1.cs" caret="916" fromTop="14" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:Form1.cs" caret="796" fromTop="18" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:Form1.cs" caret="2323" fromTop="16" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:Form1.cs" caret="2451" fromTop="16" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:SessionRecorder.cs" caret="896" fromTop="8" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:SessionRecorder.cs" caret="1663" fromTop="21" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:SessionRecorder.cs" caret="1663" fromTop="14" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:SessionRecorder.cs" caret="2511" fromTop="25" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:SessionRecorder.cs" caret="2217" fromTop="23" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:SessionRecorder.cs" caret="2511" fromTop="25" />
+      <File id="26AFAA41-F16E-4CB4-BEC4-AEDEA4E8E233/f:SessionRecorder.cs" caret="2508" fromTop="16" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="var" priority="15" />
+      <Item value="form" priority="10" />
+      <Item value="foreach" priority="9" />
+      <Item value="formEvent" priority="11" />
+      <Item value="eventHandlerType" priority="2" />
+      <Item value="formControl" priority="5" />
+      <Item value="this" priority="10" />
+      <Item value="methodInf" priority="1" />
+      <Item value="handler" priority="0" />
+      <Item value="public" priority="11" />
+      <Item value="Form`0" priority="0" />
+      <Item value="StringBuilder`0" priority="0" />
+      <Item value="buffer" priority="0" />
+      <Item value="new" priority="16" />
+      <Item value="StringBuilder" priority="0" />
+      <Item value="object" priority="0" />
+      <Item value="string" priority="3" />
+      <Item value="DateTime`0" priority="3" />
+      <Item value="Object`0" priority="1" />
+      <Item value="Console`0" priority="1" />
+      <Item value="sender" priority="1" />
+      <Item value="SessionRecorder`0" priority="0" />
+      <Item value="SessionRecorder" priority="0" />
+      <Item value="recorder" priority="2" />
+      <Item value="Control`0" priority="6" />
+      <Item value="EventArgs`0" priority="0" />
+      <Item value="EventDetails`0" priority="5" />
+      <Item value="EventDetails" priority="0" />
+      <Item value="details" priority="4" />
+      <Item value="typeof" priority="0" />
+      <Item value="EventName" priority="1" />
+      <Item value="String`0" priority="0" />
+      <Item value="using" priority="1" />
+      <Item value="System" priority="1" />
+      <Item value="Collections" priority="1" />
+      <Item value="Generic" priority="1" />
+      <Item value="Delegate`0" priority="1" />
+      <Item value="eventsControls" priority="2" />
+      <Item value="Dictionary&lt;Control,Delegate&gt;" priority="0" />
+      <Item value="Tuple`0" priority="0" />
+      <Item value="EventInfo`0" priority="1" />
+      <Item value="Dictionary&lt;Control,Tuple&lt;Delegate,EventInfo&gt;&gt;" priority="0" />
+      <Item value="Tuple&lt;Delegate,EventInfo&gt;" priority="0" />
+      <Item value="controlHandler" priority="1" />
+      <Item value="eventInfo" priority="0" />
+      <Item value="List" priority="0" />
+      <Item value="Tuple" priority="1" />
+      <Item value="Type`0" priority="0" />
+      <Item value="events" priority="3" />
+      <Item value="List&lt;Tuple&lt;Type,Delegate,EventInfo&gt;&gt;" priority="0" />
+      <Item value="Tuple&lt;Type,Delegate,EventInfo&gt;" priority="0" />
+      <Item value="tuple" priority="7" />
+      <Item value="static" priority="0" />
+      <Item value="ListBindingConverter`0" priority="0" />
+      <Item value="List&lt;string&gt;" priority="0" />
+      <Item value="output" priority="1" />
+      <Item value="Buffer" priority="0" />
+      <Item value="TextWriter`0" priority="1" />
+      <Item value="FileStream`0" priority="0" />
+      <Item value="fileName" priority="1" />
+      <Item value="Create" priority="0" />
+      <Item value="Write" priority="0" />
+      <Item value="StreamWriter`0" priority="0" />
+      <Item value="File`0" priority="0" />
+      <Item value="writer" priority="2" />
+      <Item value="null" priority="0" />
+      <Item value="subControl" priority="0" />
+      <Item value="private" priority="1" />
+      <Item value="void" priority="1" />
+      <Item value="BuildControlsEvents`0" priority="1" />
+      <Item value="if" priority="4" />
+      <Item value="formControls" priority="1" />
+      <Item value="return" priority="1" />
+      <Item value="ComboBox`0" priority="1" />
+      <Item value="Tuple&lt;Control,EventInfo&gt;" priority="0" />
+      <Item value="ListBox`0" priority="0" />
+      <Item value="BuildEventList`0" priority="1" />
+      <Item value="lb" priority="0" />
+      <Item value="childControlEvent" priority="0" />
+      <Item value="items" priority="1" />
+      <Item value="else" priority="0" />
+      <Item value="item" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Form">
+      <Item value="GetType`0" priority="0" />
+      <Item value="Controls" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="GetEvents`0" priority="3" />
+      <Item value="GetMethod`0" priority="0" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.EventInfo">
+      <Item value="EventHandlerType" priority="0" />
+      <Item value="AddEventHandler`0" priority="0" />
+      <Item value="RemoveEventHandler`0" priority="3" />
+      <Item value="Name" priority="0" />
+      <Item value="DeclaringType" priority="0" />
+      <Item value="ReflectedType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="GetType`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sessao2.SessionRecorder">
+      <Item value="GetType`0" priority="0" />
+      <Item value="form" priority="0" />
+      <Item value="StartRecorder`0" priority="0" />
+      <Item value="StopRecorder`0" priority="0" />
+      <Item value="SaveEvents`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control">
+      <Item value="Name" priority="1" />
+      <Item value="Controls" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sessao2.EventDetails">
+      <Item value="sourceControl" priority="0" />
+      <Item value="EventName" priority="1" />
+      <Item value="generatedTime" priority="0" />
+      <Item value="argument" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.KeyValuePair`2">
+      <Item value="Value" priority="0" />
+      <Item value="Key" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Tuple`2">
+      <Item value="Item2" priority="2" />
+      <Item value="Item1" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="1" />
+      <Item value="Clear`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Tuple`3">
+      <Item value="Item3" priority="1" />
+      <Item value="Item1" priority="1" />
+      <Item value="Item2" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToShortDateString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Sessao2.EventDetails">
+      <Item value="Buffer" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.TextWriter">
+      <Item value="WriteLine`0" priority="0" />
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control+ControlCollection">
+      <Item value="Count" priority="1" />
+      <Item value="Find`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sessao2.Form1">
+      <Item value="GetType`0" priority="0" />
+      <Item value="listBox1" priority="3" />
+      <Item value="Name" priority="0" />
+      <Item value="Controls" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListBox">
+      <Item value="BeginUpdate`0" priority="0" />
+      <Item value="Items" priority="0" />
+      <Item value="EndUpdate`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListBox+ObjectCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListBox+SelectedObjectCollection">
+      <Item value="Contains`0" priority="0" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
