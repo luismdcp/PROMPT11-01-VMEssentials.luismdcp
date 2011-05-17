@@ -9,39 +9,39 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5099" fromTop="0" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="6353" fromTop="15" />
     </RecentFiles>
     <RecentEdits>
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="2346" fromTop="16" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="2594" fromTop="21" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="2090" fromTop="7" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5981" fromTop="25" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5981" fromTop="4" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="1858" fromTop="9" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5981" fromTop="17" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5981" fromTop="17" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="6018" fromTop="11" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5689" fromTop="21" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5689" fromTop="22" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5689" fromTop="14" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5666" fromTop="31" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="3027" fromTop="10" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="138" fromTop="9" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5666" fromTop="15" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="4128" fromTop="16" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5666" fromTop="39" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="2835" fromTop="9" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="862" fromTop="24" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="862" fromTop="19" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5665" fromTop="12" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="1196" fromTop="17" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="1072" fromTop="24" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5665" fromTop="6" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="381" fromTop="14" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="580" fromTop="21" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5665" fromTop="23" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5666" fromTop="26" />
-      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="4154" fromTop="7" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="6645" fromTop="17" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="6645" fromTop="17" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="6682" fromTop="11" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="6353" fromTop="21" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="6353" fromTop="22" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="6353" fromTop="14" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="6330" fromTop="31" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="6330" fromTop="15" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="6330" fromTop="39" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="3520" fromTop="9" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="1244" fromTop="24" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="1244" fromTop="19" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="6330" fromTop="12" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="1881" fromTop="17" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="6330" fromTop="6" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="408" fromTop="14" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="962" fromTop="21" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="6330" fromTop="23" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="6330" fromTop="21" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="6330" fromTop="10" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="251" fromTop="7" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="1757" fromTop="3" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="3852" fromTop="7" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="6330" fromTop="16" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="6330" fromTop="23" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="6330" fromTop="13" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="6330" fromTop="29" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5238" fromTop="7" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="6272" fromTop="24" />
+      <File id="CBF4EA47-2116-4B69-B68C-655C1C6BD214/f:Program.cs" caret="5108" fromTop="18" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -58,7 +58,7 @@
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
       <Item value="StringBuilder`0" priority="0" />
-      <Item value="new" priority="7" />
+      <Item value="new" priority="8" />
       <Item value="StringBuilder" priority="0" />
       <Item value="buffer" priority="1" />
       <Item value="TextWriter`0" priority="1" />
@@ -67,13 +67,13 @@
       <Item value="Environment`0" priority="0" />
       <Item value="t" priority="0" />
       <Item value="writer" priority="7" />
-      <Item value="String`0" priority="4" />
+      <Item value="String`0" priority="6" />
       <Item value="GetPropertiesHTML`0" priority="1" />
-      <Item value="if" priority="6" />
-      <Item value="prop" priority="8" />
-      <Item value="Type`0" priority="0" />
-      <Item value="typeof" priority="0" />
-      <Item value="static" priority="2" />
+      <Item value="if" priority="11" />
+      <Item value="prop" priority="10" />
+      <Item value="Type`0" priority="1" />
+      <Item value="typeof" priority="1" />
+      <Item value="static" priority="3" />
       <Item value="bool" priority="0" />
       <Item value="System" priority="0" />
       <Item value="Reflection" priority="0" />
@@ -82,15 +82,15 @@
       <Item value="property" priority="0" />
       <Item value="Instance" priority="0" />
       <Item value="Count`1" priority="0" />
-      <Item value="else" priority="3" />
+      <Item value="else" priority="8" />
       <Item value="GetPropertiesHTMLv3`0" priority="0" />
       <Item value="BindingFlags`0" priority="0" />
       <Item value="Guid`0" priority="0" />
-      <Item value="return" priority="9" />
+      <Item value="return" priority="13" />
       <Item value="filePath" priority="1" />
       <Item value="string" priority="2" />
       <Item value="fullPath" priority="4" />
-      <Item value="obj" priority="9" />
+      <Item value="obj" priority="12" />
       <Item value="var" priority="1" />
       <Item value="Dictionary" priority="0" />
       <Item value="int" priority="1" />
@@ -108,13 +108,23 @@
       <Item value="di2" priority="1" />
       <Item value="false" priority="0" />
       <Item value="Enumerable`0" priority="0" />
-      <Item value="DateTime`0" priority="4" />
+      <Item value="DateTime`0" priority="11" />
       <Item value="dt" priority="1" />
       <Item value="Convert`0" priority="1" />
       <Item value="HashSet" priority="0" />
       <Item value="HashSet&lt;object&gt;" priority="0" />
       <Item value="Comparador`0" priority="0" />
       <Item value="container" priority="2" />
+      <Item value="is" priority="2" />
+      <Item value="x" priority="1" />
+      <Item value="xDT" priority="2" />
+      <Item value="yDT" priority="2" />
+      <Item value="objDt" priority="7" />
+      <Item value="List" priority="0" />
+      <Item value="List&lt;int&gt;" priority="0" />
+      <Item value="metadata" priority="1" />
+      <Item value="IEnumerable" priority="0" />
+      <Item value="StringSplitOptions`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Text.StringBuilder">
       <Item value="Append`0" priority="1" />
@@ -128,6 +138,7 @@
       <Item value="IsPrimitive" priority="0" />
       <Item value="GetProperties`0" priority="1" />
       <Item value="GetInterfaces`0" priority="0" />
+      <Item value="IsAssignableFrom`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.IO.StreamWriter">
       <Item value="WriteLine`0" priority="4" />
@@ -135,19 +146,20 @@
       <Item value="Write`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.String">
-      <Item value="Format`0" priority="0" />
-      <Item value="Empty" priority="2" />
+      <Item value="Format`0" priority="1" />
+      <Item value="Empty" priority="3" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Reflection.PropertyInfo">
       <Item value="GetType`0" priority="0" />
       <Item value="PropertyType" priority="5" />
       <Item value="Attributes" priority="0" />
       <Item value="Name" priority="2" />
+      <Item value="MetadataToken" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Object">
       <Item value="ToString`0" priority="1" />
       <Item value="GetHashCode`0" priority="3" />
-      <Item value="Equals`0" priority="0" />
+      <Item value="Equals`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Reflection.BindingFlags">
       <Item value="Public" priority="0" />
@@ -165,7 +177,7 @@
       <Item value="GetHashCode`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.String">
-      <Item value="GetHashCode`0" priority="1" />
+      <Item value="GetHashCode`0" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Object">
       <Item value="Equals`0" priority="0" />
@@ -178,6 +190,13 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.DateTime">
       <Item value="ToShortDateString`0" priority="0" />
+      <Item value="Day" priority="3" />
+      <Item value="Month" priority="2" />
+      <Item value="Year" priority="2" />
+      <Item value="Hour" priority="0" />
+      <Item value="Minute" priority="0" />
+      <Item value="Second" priority="0" />
+      <Item value="Millisecond" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Convert">
       <Item value="ToDateTime`0" priority="0" />
@@ -187,6 +206,13 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.DateTime">
       <Item value="TryParse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Contains`0" priority="0" />
+      <Item value="Add`0" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

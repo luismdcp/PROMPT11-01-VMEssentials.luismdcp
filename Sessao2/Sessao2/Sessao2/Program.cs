@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using System.Collections;
 
 namespace Sessao2
 {
@@ -19,7 +20,17 @@ namespace Sessao2
             }
             else
             {
-                return x.Equals(y);
+                if (x is DateTime && y is DateTime)
+                {
+                    DateTime xDT = (DateTime) x;
+                    DateTime yDT = (DateTime) y;
+
+                    return xDT.Day == yDT.Day && xDT.Month == yDT.Month && xDT.Year == yDT.Year;
+                }
+                else
+                {
+                    return x.Equals(y);
+                }
             }
         }
 
@@ -33,7 +44,15 @@ namespace Sessao2
             }
             else
             {
-                return obj.GetHashCode();
+                if (obj is DateTime)
+                {
+                    DateTime objDt = (DateTime) obj;
+                    return String.Format("{0}{1}{2}", objDt.Day, objDt.Month, objDt.Year).GetHashCode();
+                }
+                else
+                {
+                    return obj.GetHashCode();   
+                }
             }
         }
     }
@@ -101,6 +120,8 @@ namespace Sessao2
                 string fullPath = Environment.CurrentDirectory + "\\temp\\" + Guid.NewGuid() + ".html";
                 StreamWriter writer = new StreamWriter(fullPath);
 
+                dictionary.Add(obj, fullPath);
+
                 writer.WriteLine("<html>");
                 writer.WriteLine("<head>");
                 writer.WriteLine("</head>");
@@ -123,14 +144,18 @@ namespace Sessao2
                     }
                     else
                     {
-                        if (prop.Name != "Root" && prop.Name != "Parent" && prop.Name != "Date" && prop.Name != "Now" && prop.Name != "UtcNow" && prop.Name != "TimeOfDay" && prop.Name != "Today")
+                        if (prop.GetValue(obj, null) != null)
                         {
-                            if (prop.GetValue(obj, null) != null)
+                            if (typeof(IEnumerable).IsAssignableFrom(prop.PropertyType))
+                            {
+                                
+                            }
+                            else
                             {
                                 if (!dictionary.ContainsKey(prop.GetValue(obj, null)))
                                 {
                                     string filePath = GetPropertiesHtmLv3(prop.GetValue(obj, null));
-                                    dictionary.Add(prop.GetValue(obj, null), filePath);
+
                                     writer.Write("<a href=\"");
                                     writer.Write(filePath);
                                     writer.Write("\">");
@@ -144,7 +169,7 @@ namespace Sessao2
                                     writer.Write("\">");
                                     writer.Write(prop.GetValue(obj, null).ToString());
                                     writer.WriteLine("</a>");
-                                }   
+                                }
                             }
                         }
                     }
