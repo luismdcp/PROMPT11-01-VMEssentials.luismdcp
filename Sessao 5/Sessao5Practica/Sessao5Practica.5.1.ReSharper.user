@@ -1,0 +1,187 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="D5203E6C-83D6-4CB6-A014-B32FEE8AF558/f:RationalNumber.cs" caret="725" fromTop="21" />
+      <File id="41A67E7E-80C8-4567-86C9-05EAFF1389C2/f:Tests.cs" caret="431" fromTop="19" />
+      <File id="23C0CBF0-402D-4F42-96F1-AC671E88EB05/f:FactoryCatalog.cs" caret="184" fromTop="11" />
+      <File id="44BB3289-2A70-44B5-B2B5-17C0A10EB808/f:Class1.cs" caret="891" fromTop="31" />
+      <File id="D5203E6C-83D6-4CB6-A014-B32FEE8AF558/f:OrderedSequence.cs" caret="427" fromTop="13" />
+      <File id="D5203E6C-83D6-4CB6-A014-B32FEE8AF558/f:ExtensionMethods.cs" caret="1413" fromTop="26" />
+      <File id="D5203E6C-83D6-4CB6-A014-B32FEE8AF558/f:Program.cs" caret="1412" fromTop="12" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="D5203E6C-83D6-4CB6-A014-B32FEE8AF558/f:Program.cs" caret="1128" fromTop="23" />
+      <File id="D5203E6C-83D6-4CB6-A014-B32FEE8AF558/f:Program.cs" caret="601" fromTop="11" />
+      <File id="D5203E6C-83D6-4CB6-A014-B32FEE8AF558/f:Program.cs" caret="1411" fromTop="21" />
+      <File id="D5203E6C-83D6-4CB6-A014-B32FEE8AF558/f:Program.cs" caret="1139" fromTop="21" />
+      <File id="41A67E7E-80C8-4567-86C9-05EAFF1389C2/f:Tests.cs" caret="88" fromTop="4" />
+      <File id="41A67E7E-80C8-4567-86C9-05EAFF1389C2/f:Tests.cs" caret="114" fromTop="5" />
+      <File id="D5203E6C-83D6-4CB6-A014-B32FEE8AF558/f:ExtensionMethods.cs" caret="517" fromTop="18" />
+      <File id="41A67E7E-80C8-4567-86C9-05EAFF1389C2/f:Tests.cs" caret="344" fromTop="15" />
+      <File id="44BB3289-2A70-44B5-B2B5-17C0A10EB808/f:Class1.cs" caret="900" fromTop="11" />
+      <File id="44BB3289-2A70-44B5-B2B5-17C0A10EB808/f:Class1.cs" caret="239" fromTop="10" />
+      <File id="44BB3289-2A70-44B5-B2B5-17C0A10EB808/f:Class1.cs" caret="536" fromTop="18" />
+      <File id="23C0CBF0-402D-4F42-96F1-AC671E88EB05/f:FactoryCatalog.cs" caret="165" fromTop="7" />
+      <File id="44BB3289-2A70-44B5-B2B5-17C0A10EB808/f:Class1.cs" caret="15" fromTop="1" />
+      <File id="44BB3289-2A70-44B5-B2B5-17C0A10EB808/f:Class1.cs" caret="891" fromTop="10" />
+      <File id="D5203E6C-83D6-4CB6-A014-B32FEE8AF558/f:ExtensionMethods.cs" caret="1406" fromTop="22" />
+      <File id="D5203E6C-83D6-4CB6-A014-B32FEE8AF558/f:OrderedSequence.cs" caret="545" fromTop="14" />
+      <File id="D5203E6C-83D6-4CB6-A014-B32FEE8AF558/f:OrderedSequence.cs" caret="625" fromTop="15" />
+      <File id="D5203E6C-83D6-4CB6-A014-B32FEE8AF558/f:OrderedSequence.cs" caret="742" fromTop="20" />
+      <File id="D5203E6C-83D6-4CB6-A014-B32FEE8AF558/f:OrderedSequence.cs" caret="895" fromTop="25" />
+      <File id="D5203E6C-83D6-4CB6-A014-B32FEE8AF558/f:ExtensionMethods.cs" caret="169" fromTop="8" />
+      <File id="D5203E6C-83D6-4CB6-A014-B32FEE8AF558/f:ExtensionMethods.cs" caret="841" fromTop="8" />
+      <File id="D5203E6C-83D6-4CB6-A014-B32FEE8AF558/f:OrderedSequence.cs" caret="507" fromTop="15" />
+      <File id="D5203E6C-83D6-4CB6-A014-B32FEE8AF558/f:OrderedSequence.cs" caret="259" fromTop="10" />
+      <File id="D5203E6C-83D6-4CB6-A014-B32FEE8AF558/f:Program.cs" caret="148" fromTop="9" />
+      <File id="D5203E6C-83D6-4CB6-A014-B32FEE8AF558/f:Program.cs" caret="346" fromTop="14" />
+      <File id="D5203E6C-83D6-4CB6-A014-B32FEE8AF558/f:Program.cs" caret="1455" fromTop="18" />
+      <File id="D5203E6C-83D6-4CB6-A014-B32FEE8AF558/f:ExtensionMethods.cs" caret="1173" fromTop="17" />
+      <File id="D5203E6C-83D6-4CB6-A014-B32FEE8AF558/f:ExtensionMethods.cs" caret="1372" fromTop="23" />
+      <File id="D5203E6C-83D6-4CB6-A014-B32FEE8AF558/f:Program.cs" caret="2166" fromTop="26" />
+      <File id="D5203E6C-83D6-4CB6-A014-B32FEE8AF558/f:Program.cs" caret="1956" fromTop="22" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="DivideByZeroException`0" priority="0" />
+      <Item value="public" priority="6" />
+      <Item value="if" priority="7" />
+      <Item value="typeof" priority="2" />
+      <Item value="RationalNumber`0" priority="11" />
+      <Item value="obj" priority="4" />
+      <Item value="return" priority="11" />
+      <Item value="false" priority="0" />
+      <Item value="as" priority="0" />
+      <Item value="this" priority="10" />
+      <Item value="rn" priority="1" />
+      <Item value="Type`0" priority="0" />
+      <Item value="is" priority="0" />
+      <Item value="rn1" priority="7" />
+      <Item value="prop" priority="2" />
+      <Item value="value" priority="0" />
+      <Item value="Comparison" priority="2" />
+      <Item value="static" priority="1" />
+      <Item value="int" priority="3" />
+      <Item value="rn2" priority="1" />
+      <Item value="result" priority="0" />
+      <Item value="else" priority="0" />
+      <Item value="Comparison&lt;RationalNumber&gt;" priority="0" />
+      <Item value="RationalNumberComparer`0" priority="0" />
+      <Item value="Convert`0" priority="0" />
+      <Item value="IComparable" priority="0" />
+      <Item value="IEquatable" priority="0" />
+      <Item value="other" priority="0" />
+      <Item value="new" priority="3" />
+      <Item value="RationalNumber" priority="0" />
+      <Item value="List" priority="4" />
+      <Item value="List&lt;T&gt;" priority="0" />
+      <Item value="foreach" priority="0" />
+      <Item value="buffer" priority="6" />
+      <Item value="element" priority="2" />
+      <Item value="using" priority="1" />
+      <Item value="NUnit" priority="0" />
+      <Item value="Test" priority="0" />
+      <Item value="void" priority="0" />
+      <Item value="RangeAttribute`0" priority="0" />
+      <Item value="Enumerable`0" priority="0" />
+      <Item value="Enum`0" priority="0" />
+      <Item value="Random`0" priority="0" />
+      <Item value="Assert`0" priority="1" />
+      <Item value="yield return" priority="0" />
+      <Item value="temp" priority="0" />
+      <Item value="criterium" priority="1" />
+      <Item value="class" priority="0" />
+      <Item value="IEnumerable" priority="1" />
+      <Item value="T`0" priority="1" />
+      <Item value="ctor" priority="0" />
+      <Item value="private" priority="0" />
+      <Item value="comparerDelegate" priority="0" />
+      <Item value="elements" priority="1" />
+      <Item value="OrderedSequence" priority="2" />
+      <Item value="OrderedSequence&lt;T&gt;" priority="0" />
+      <Item value="seq" priority="5" />
+      <Item value="sequence" priority="0" />
+      <Item value="var" priority="3" />
+      <Item value="a" priority="1" />
+      <Item value="Array`0" priority="0" />
+      <Item value="c" priority="0" />
+      <Item value="t1" priority="0" />
+      <Item value="books" priority="0" />
+      <Item value="b" priority="1" />
+      <Item value="Book`0" priority="0" />
+      <Item value="ordered" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sessao5Practica.RationalNumber">
+      <Item value="_numerator" priority="4" />
+      <Item value="_denominator" priority="2" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="Numerator" priority="6" />
+      <Item value="Denominator" priority="3" />
+      <Item value="CompareTo`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Type">
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="GetHashCode`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToInt16`0" priority="0" />
+      <Item value="ToInt32`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Contains`0" priority="0" />
+      <Item value="Add`0" priority="0" />
+      <Item value="RemoveRepeated`1" priority="1" />
+      <Item value="GetEnumerator`0" priority="0" />
+      <Item value="OrderBy`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="Equals`0" priority="0" />
+      <Item value="IsTrue`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Count`1" priority="1" />
+      <Item value="ToList`1" priority="0" />
+      <Item value="ToArray`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sessao5Practica.OrderedSequence`1">
+      <Item value="comparerDelegate" priority="1" />
+      <Item value="elements" priority="1" />
+      <Item value="GetEnumerator`0" priority="0" />
+      <Item value="ToArray`1" priority="0" />
+      <Item value="Elements" priority="0" />
+      <Item value="Comparer" priority="0" />
+      <Item value="ThenBy`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Array">
+      <Item value="Sort`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="CompareTo`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sessao5Practica.Program+Book">
+      <Item value="Author" priority="0" />
+      <Item value="Title" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

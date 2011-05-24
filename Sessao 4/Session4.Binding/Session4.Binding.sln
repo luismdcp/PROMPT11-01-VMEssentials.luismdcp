@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session4.Binding", "Session4.Binding\Session4.Binding.csproj", "{DE4A9645-F702-44FF-9DEF-A8B996F5D03A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session4.Binding.Tests", "..\Session4.Binding.Tests\Session4.Binding.Tests.csproj", "{0A8C5B09-E4E3-473C-B5AD-22F96D97A0EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE4A9645-F702-44FF-9DEF-A8B996F5D03A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4A9645-F702-44FF-9DEF-A8B996F5D03A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4A9645-F702-44FF-9DEF-A8B996F5D03A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4A9645-F702-44FF-9DEF-A8B996F5D03A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A8C5B09-E4E3-473C-B5AD-22F96D97A0EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A8C5B09-E4E3-473C-B5AD-22F96D97A0EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A8C5B09-E4E3-473C-B5AD-22F96D97A0EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A8C5B09-E4E3-473C-B5AD-22F96D97A0EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

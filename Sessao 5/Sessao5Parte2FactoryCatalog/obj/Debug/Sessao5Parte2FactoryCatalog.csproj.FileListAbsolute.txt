@@ -1,0 +1,5 @@
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao 5\Sessao5Parte2FactoryCatalog\bin\Debug\Sessao5Parte2FactoryCatalog.dll
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao 5\Sessao5Parte2FactoryCatalog\bin\Debug\Sessao5Parte2FactoryCatalog.pdb
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao 5\Sessao5Parte2FactoryCatalog\obj\Debug\ResolveAssemblyReference.cache
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao 5\Sessao5Parte2FactoryCatalog\obj\Debug\Sessao5Parte2FactoryCatalog.dll
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao 5\Sessao5Parte2FactoryCatalog\obj\Debug\Sessao5Parte2FactoryCatalog.pdb

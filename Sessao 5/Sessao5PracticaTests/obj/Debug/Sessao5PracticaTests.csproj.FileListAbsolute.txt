@@ -1,0 +1,12 @@
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao 5\Sessao5PracticaTests\bin\Debug\Sessao5PracticaTests.dll
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao 5\Sessao5PracticaTests\bin\Debug\Sessao5PracticaTests.pdb
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao 5\Sessao5PracticaTests\bin\Debug\nunit.framework.dll
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao 5\Sessao5PracticaTests\bin\Debug\Sessao5Practica.exe
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao 5\Sessao5PracticaTests\bin\Debug\Sessao5Practica.pdb
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao 5\Sessao5PracticaTests\obj\Debug\ResolveAssemblyReference.cache
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao 5\Sessao5PracticaTests\obj\Debug\Sessao5PracticaTests.dll
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao 5\Sessao5PracticaTests\obj\Debug\Sessao5PracticaTests.pdb
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao 5\Sessao5PracticaTests\bin\Debug\Sessao5Parte2Classes.dll
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao 5\Sessao5PracticaTests\bin\Debug\Sessao5Parte2FactoryCatalog.dll
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao 5\Sessao5PracticaTests\bin\Debug\Sessao5Parte2Classes.pdb
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao 5\Sessao5PracticaTests\bin\Debug\Sessao5Parte2FactoryCatalog.pdb

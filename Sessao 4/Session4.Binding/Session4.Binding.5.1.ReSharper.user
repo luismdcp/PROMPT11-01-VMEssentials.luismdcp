@@ -1,0 +1,207 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="DE4A9645-F702-44FF-9DEF-A8B996F5D03A/f:BindableAttribute.cs" caret="346" fromTop="13" />
+      <File id="DE4A9645-F702-44FF-9DEF-A8B996F5D03A/f:BinderException.cs" caret="214" fromTop="9" />
+      <File id="0A8C5B09-E4E3-473C-B5AD-22F96D97A0EF/f:Class1.cs" caret="1531" fromTop="17" />
+      <File id="DE4A9645-F702-44FF-9DEF-A8B996F5D03A/f:Binder.cs" caret="1844" fromTop="41" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="0A8C5B09-E4E3-473C-B5AD-22F96D97A0EF/f:Class1.cs" caret="760" fromTop="15" />
+      <File id="0A8C5B09-E4E3-473C-B5AD-22F96D97A0EF/f:Class1.cs" caret="137" fromTop="5" />
+      <File id="0A8C5B09-E4E3-473C-B5AD-22F96D97A0EF/f:Class1.cs" caret="2190" fromTop="31" />
+      <File id="0A8C5B09-E4E3-473C-B5AD-22F96D97A0EF/f:Class1.cs" caret="1573" fromTop="18" />
+      <File id="DE4A9645-F702-44FF-9DEF-A8B996F5D03A/f:BinderException.cs" caret="188" fromTop="10" />
+      <File id="DE4A9645-F702-44FF-9DEF-A8B996F5D03A/f:BinderException.cs" caret="15" fromTop="1" />
+      <File id="DE4A9645-F702-44FF-9DEF-A8B996F5D03A/f:BinderException.cs" caret="448" fromTop="17" />
+      <File id="DE4A9645-F702-44FF-9DEF-A8B996F5D03A/f:BinderException.cs" caret="280" fromTop="13" />
+      <File id="DE4A9645-F702-44FF-9DEF-A8B996F5D03A/f:BindableAttribute.cs" caret="322" fromTop="10" />
+      <File id="DE4A9645-F702-44FF-9DEF-A8B996F5D03A/f:Binder.cs" caret="1203" fromTop="22" />
+      <File id="DE4A9645-F702-44FF-9DEF-A8B996F5D03A/f:BindableAttribute.cs" caret="193" fromTop="7" />
+      <File id="DE4A9645-F702-44FF-9DEF-A8B996F5D03A/f:Binder.cs" caret="1993" fromTop="25" />
+      <File id="DE4A9645-F702-44FF-9DEF-A8B996F5D03A/f:Binder.cs" caret="212" fromTop="7" />
+      <File id="0A8C5B09-E4E3-473C-B5AD-22F96D97A0EF/f:Class1.cs" caret="947" fromTop="22" />
+      <File id="0A8C5B09-E4E3-473C-B5AD-22F96D97A0EF/f:Class1.cs" caret="2818" fromTop="31" />
+      <File id="0A8C5B09-E4E3-473C-B5AD-22F96D97A0EF/f:Class1.cs" caret="1455" fromTop="15" />
+      <File id="0A8C5B09-E4E3-473C-B5AD-22F96D97A0EF/f:Class1.cs" caret="301" fromTop="8" />
+      <File id="0A8C5B09-E4E3-473C-B5AD-22F96D97A0EF/f:Class1.cs" caret="568" fromTop="16" />
+      <File id="DE4A9645-F702-44FF-9DEF-A8B996F5D03A/f:Binder.cs" caret="726" fromTop="14" />
+      <File id="0A8C5B09-E4E3-473C-B5AD-22F96D97A0EF/f:Class1.cs" caret="1333" fromTop="10" />
+      <File id="0A8C5B09-E4E3-473C-B5AD-22F96D97A0EF/f:Class1.cs" caret="1877" fromTop="17" />
+      <File id="0A8C5B09-E4E3-473C-B5AD-22F96D97A0EF/f:Class1.cs" caret="2599" fromTop="20" />
+      <File id="DE4A9645-F702-44FF-9DEF-A8B996F5D03A/f:Binder.cs" caret="611" fromTop="18" />
+      <File id="DE4A9645-F702-44FF-9DEF-A8B996F5D03A/f:Binder.cs" caret="1069" fromTop="20" />
+      <File id="DE4A9645-F702-44FF-9DEF-A8B996F5D03A/f:Binder.cs" caret="1619" fromTop="20" />
+      <File id="DE4A9645-F702-44FF-9DEF-A8B996F5D03A/f:Binder.cs" caret="1406" fromTop="15" />
+      <File id="DE4A9645-F702-44FF-9DEF-A8B996F5D03A/f:Binder.cs" caret="1844" fromTop="24" />
+      <File id="0A8C5B09-E4E3-473C-B5AD-22F96D97A0EF/f:Class1.cs" caret="2295" fromTop="13" />
+      <File id="0A8C5B09-E4E3-473C-B5AD-22F96D97A0EF/f:Class1.cs" caret="2793" fromTop="25" />
+      <File id="0A8C5B09-E4E3-473C-B5AD-22F96D97A0EF/f:Class1.cs" caret="898" fromTop="19" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="class" priority="1" />
+      <Item value="public" priority="4" />
+      <Item value="int" priority="0" />
+      <Item value="prop" priority="14" />
+      <Item value="Test" priority="0" />
+      <Item value="void" priority="1" />
+      <Item value="new" priority="5" />
+      <Item value="var" priority="13" />
+      <Item value="KeyValuePair" priority="0" />
+      <Item value="string" priority="3" />
+      <Item value="KeyValuePair&lt;string,string&gt;" priority="2" />
+      <Item value="binder" priority="1" />
+      <Item value="Assert`0" priority="2" />
+      <Item value="a" priority="1" />
+      <Item value="Activator`0" priority="0" />
+      <Item value="typeof" priority="5" />
+      <Item value="return" priority="1" />
+      <Item value="temp" priority="7" />
+      <Item value="foreach" priority="0" />
+      <Item value="if" priority="5" />
+      <Item value="props" priority="1" />
+      <Item value="Where`1" priority="2" />
+      <Item value="p" priority="0" />
+      <Item value="keyValuePair" priority="7" />
+      <Item value="else" priority="0" />
+      <Item value="fields" priority="0" />
+      <Item value="f" priority="0" />
+      <Item value="field" priority="4" />
+      <Item value="propType" priority="0" />
+      <Item value="Convert`0" priority="1" />
+      <Item value="BindingFlags`0" priority="1" />
+      <Item value="_keyValuePair" priority="0" />
+      <Item value="BinderException`0" priority="0" />
+      <Item value="ctor" priority="1" />
+      <Item value="MemberInfo`0" priority="0" />
+      <Item value="this" priority="0" />
+      <Item value="mi" priority="2" />
+      <Item value="base" priority="1" />
+      <Item value="String`0" priority="0" />
+      <Item value="message" priority="1" />
+      <Item value="EntryPointNotFoundException`0" priority="0" />
+      <Item value="using" priority="0" />
+      <Item value="System" priority="0" />
+      <Item value="NewsStyleUriParser`0" priority="1" />
+      <Item value="private" priority="0" />
+      <Item value="Type`0" priority="0" />
+      <Item value="type" priority="1" />
+      <Item value="ValidateType`0" priority="0" />
+      <Item value="throw" priority="0" />
+      <Item value="NotPrimitiveMemberException`0" priority="0" />
+      <Item value="InvalidMemberTypeException`0" priority="0" />
+      <Item value="exc" priority="1" />
+      <Item value="Attribute`0" priority="1" />
+      <Item value="bool" priority="0" />
+      <Item value="AttributeUsage" priority="1" />
+      <Item value="AttributeTargets`0" priority="2" />
+      <Item value="BindableAttribute`0" priority="2" />
+      <Item value="false" priority="1" />
+      <Item value="customAttributes" priority="0" />
+      <Item value="Length" priority="1" />
+      <Item value="fieldCustomAttributes" priority="1" />
+      <Item value="Bindable" priority="0" />
+      <Item value="true" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="Required" priority="0" />
+      <Item value="default" priority="1" />
+      <Item value="Int32`0" priority="0" />
+      <Item value="propCustomAttributes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Session4.Binding.Binder">
+      <Item value="BindTo`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="AreEqual`0" priority="2" />
+      <Item value="Throws`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Session4.Binding.Tests.BinderTests+A">
+      <Item value="AnInteger" priority="0" />
+      <Item value="AString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Activator">
+      <Item value="CreateInstance`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="GetType`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="GetFields`0" priority="0" />
+      <Item value="GetProperties`0" priority="1" />
+      <Item value="IsPrimitive" priority="1" />
+      <Item value="Name" priority="1" />
+      <Item value="GetProperty`0" priority="2" />
+      <Item value="GetField`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Reflection.BindingFlags">
+      <Item value="Public" priority="1" />
+      <Item value="Instance" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.PropertyInfo">
+      <Item value="Name" priority="0" />
+      <Item value="SetValue`0" priority="1" />
+      <Item value="PropertyType" priority="4" />
+      <Item value="GetCustomAttributes`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.KeyValuePair`2">
+      <Item value="Key" priority="4" />
+      <Item value="Value" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="FirstOrDefault`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.FieldInfo">
+      <Item value="Name" priority="0" />
+      <Item value="SetValue`0" priority="1" />
+      <Item value="SetValueDirect`0" priority="0" />
+      <Item value="FieldType" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ChangeType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Session4.Binding.NotPrimitiveMemberException">
+      <Item value="MemberInfo" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.MemberInfo">
+      <Item value="Name" priority="0" />
+      <Item value="DeclaringType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Session4.Binding.InvalidMemberTypeException">
+      <Item value="MemberInfo" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.AttributeTargets">
+      <Item value="Field" priority="0" />
+      <Item value="Property" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Attribute">
+      <Item value="GetCustomAttributes`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Session4.Binding.BindableAttribute">
+      <Item value="Name" priority="0" />
+      <Item value="Required" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

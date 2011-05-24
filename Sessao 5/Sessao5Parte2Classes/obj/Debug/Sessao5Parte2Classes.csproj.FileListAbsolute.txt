@@ -1,0 +1,5 @@
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao 5\Sessao5Parte2Classes\bin\Debug\Sessao5Parte2Classes.dll
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao 5\Sessao5Parte2Classes\bin\Debug\Sessao5Parte2Classes.pdb
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao 5\Sessao5Parte2Classes\obj\Debug\ResolveAssemblyReference.cache
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao 5\Sessao5Parte2Classes\obj\Debug\Sessao5Parte2Classes.dll
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao 5\Sessao5Parte2Classes\obj\Debug\Sessao5Parte2Classes.pdb
