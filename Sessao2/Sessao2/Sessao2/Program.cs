@@ -60,10 +60,12 @@ namespace Sessao2
     class Program
     {
         static Dictionary<object, string> dictionary = new Dictionary<object, string>(new Comparador());
+        static Dictionary<Type, IPropertiesResolver> typePropertiesMapper = new Dictionary<Type, IPropertiesResolver>();
         
         static void Main(string[] args)
         {
-            var di = new DirectoryInfo(@"c:\program files");
+            DirectoryInfo di = new DirectoryInfo(@"c:\program files");
+            typePropertiesMapper.Add(typeof(DirectoryInfo), new DirectoryInfoResolver(di));
             
             GetPropertiesHtmLv3(di);
             Console.ReadLine();
@@ -120,6 +122,82 @@ namespace Sessao2
                 string fullPath = Environment.CurrentDirectory + "\\temp\\" + Guid.NewGuid() + ".html";
                 StreamWriter writer = new StreamWriter(fullPath);
 
+                //if (typePropertiesMapper.ContainsKey(t))
+                //{
+                //    foreach (KeyValuePair<string, object> propMap in typePropertiesMapper[t].GetPropertiesMap())
+                //    {
+                //        writer.WriteLine("<tr>");
+                //        writer.Write("<td>");
+                //        writer.Write(propMap.Key);
+                //        writer.Write("</td>");
+                //        writer.Write("<td>");
+
+                //        if (propMap.Value.GetType().IsPrimitive || propMap.Value.GetType() == typeof(String) || propMap.Value.GetType().GetProperties(BindingFlags.Instance | BindingFlags.Public).Count() == 0)
+                //        {
+                //            writer.Write(propMap.Value.ToString());
+                //        }
+                //        else
+                //        {
+                //            if (propMap.Value != null)
+                //            {
+
+                //                if (!dictionary.ContainsKey(propMap.Value))
+                //                {
+                //                    string filePath = GetPropertiesHtmLv3(propMap.Value);
+
+                //                    writer.Write("<a href=\"");
+                //                    writer.Write(filePath);
+                //                    writer.Write("\">");
+                //                    writer.Write(propMap.Value.ToString());
+                //                    writer.WriteLine("</a>");
+                //                }
+                //                else
+                //                {
+                //                    writer.Write("<a href=\"");
+                //                    writer.Write(dictionary[propMap.Value]);
+                //                    writer.Write("\">");
+                //                    writer.Write(propMap.Value.ToString());
+                //                    writer.WriteLine("</a>");
+                //                }
+                //            }
+                //        }
+
+                //        writer.WriteLine("</td>");
+                //    }
+                //}
+
+
+                if (typeof(IEnumerable).IsAssignableFrom(obj.GetType()))
+                {
+                    var enumerator = ((IEnumerable) obj).GetEnumerator();
+
+                    while (enumerator.MoveNext())
+                    {
+                        var currentElement = enumerator.Current;
+
+                        if (!dictionary.ContainsKey(currentElement))
+                        {
+                            string filePath = GetPropertiesHtmLv3(currentElement);
+
+                            writer.Write("<a href=\"");
+                            writer.Write(filePath);
+                            writer.Write("\">");
+                            writer.Write(currentElement.ToString());
+                            writer.WriteLine("</a>");
+                            writer.WriteLine("</br>");
+                        }
+                        else
+                        {
+                            writer.Write("<a href=\"");
+                            writer.Write(dictionary[currentElement]);
+                            writer.Write("\">");
+                            writer.Write(currentElement.ToString());
+                            writer.WriteLine("</a>");
+                            writer.WriteLine("</br>");
+                        }
+                    }
+                }
+
                 dictionary.Add(obj, fullPath);
 
                 writer.WriteLine("<html>");
@@ -146,30 +224,24 @@ namespace Sessao2
                     {
                         if (prop.GetValue(obj, null) != null)
                         {
-                            if (typeof(IEnumerable).IsAssignableFrom(prop.PropertyType))
+
+                            if (!dictionary.ContainsKey(prop.GetValue(obj, null)))
                             {
-                                
+                                string filePath = GetPropertiesHtmLv3(prop.GetValue(obj, null));
+
+                                writer.Write("<a href=\"");
+                                writer.Write(filePath);
+                                writer.Write("\">");
+                                writer.Write(prop.GetValue(obj, null).ToString());
+                                writer.WriteLine("</a>");
                             }
                             else
                             {
-                                if (!dictionary.ContainsKey(prop.GetValue(obj, null)))
-                                {
-                                    string filePath = GetPropertiesHtmLv3(prop.GetValue(obj, null));
-
-                                    writer.Write("<a href=\"");
-                                    writer.Write(filePath);
-                                    writer.Write("\">");
-                                    writer.Write(prop.GetValue(obj, null).ToString());
-                                    writer.WriteLine("</a>");
-                                }
-                                else
-                                {
-                                    writer.Write("<a href=\"");
-                                    writer.Write(dictionary[prop.GetValue(obj, null)]);
-                                    writer.Write("\">");
-                                    writer.Write(prop.GetValue(obj, null).ToString());
-                                    writer.WriteLine("</a>");
-                                }
+                                writer.Write("<a href=\"");
+                                writer.Write(dictionary[prop.GetValue(obj, null)]);
+                                writer.Write("\">");
+                                writer.Write(prop.GetValue(obj, null).ToString());
+                                writer.WriteLine("</a>");
                             }
                         }
                     }

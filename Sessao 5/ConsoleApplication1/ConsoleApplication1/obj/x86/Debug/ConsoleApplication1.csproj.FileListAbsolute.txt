@@ -1,0 +1,5 @@
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao 5\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao 5\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao 5\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao 5\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\Sessao 5\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb

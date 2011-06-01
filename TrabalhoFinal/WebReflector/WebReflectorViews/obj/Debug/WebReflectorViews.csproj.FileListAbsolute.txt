@@ -1,0 +1,9 @@
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\WebReflectorViews\bin\Debug\WebReflectorViews.dll
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\WebReflectorViews\bin\Debug\WebReflectorViews.pdb
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\WebReflectorViews\bin\Debug\HtmlProvider.dll
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\WebReflectorViews\bin\Debug\WebReflectorContracts.dll
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\WebReflectorViews\bin\Debug\HtmlProvider.pdb
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\WebReflectorViews\bin\Debug\WebReflectorContracts.pdb
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\WebReflectorViews\obj\Debug\ResolveAssemblyReference.cache
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\WebReflectorViews\obj\Debug\WebReflectorViews.dll
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\WebReflectorViews\obj\Debug\WebReflectorViews.pdb

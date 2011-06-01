@@ -1,0 +1,16 @@
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\WebReflectorApp\bin\Debug\WebReflectorApp.exe.config
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\WebReflectorApp\bin\Debug\WebReflectorApp.exe
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\WebReflectorApp\bin\Debug\WebReflectorApp.pdb
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\WebReflectorApp\bin\Debug\Handlers.dll
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\WebReflectorApp\bin\Debug\HtmlProvider.dll
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\WebReflectorApp\bin\Debug\Router.dll
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\WebReflectorApp\bin\Debug\WebReflectorContracts.dll
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\WebReflectorApp\bin\Debug\WebReflectorViews.dll
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\WebReflectorApp\bin\Debug\Handlers.pdb
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\WebReflectorApp\bin\Debug\HtmlProvider.pdb
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\WebReflectorApp\bin\Debug\Router.pdb
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\WebReflectorApp\bin\Debug\WebReflectorContracts.pdb
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\WebReflectorApp\bin\Debug\WebReflectorViews.pdb
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\WebReflectorApp\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\WebReflectorApp\obj\x86\Debug\WebReflectorApp.exe
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\WebReflectorApp\obj\x86\Debug\WebReflectorApp.pdb
