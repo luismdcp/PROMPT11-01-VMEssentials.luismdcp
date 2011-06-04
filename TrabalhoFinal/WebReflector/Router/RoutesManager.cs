@@ -25,6 +25,12 @@ namespace Router
 
         public bool RegisterHandlerProvider(out IResponseView errorView)
         {
+            if (this.HandlerProvider == null)
+            {
+                errorView = new InternalErrorView("É necessário obter um HanlderProvider não nulo.");
+                return false;
+            }
+
             var attributes = this.HandlerProvider.GetType().GetCustomAttributes(typeof(HandlerProviderAttribute), true);
 
             if (attributes.Length > 0)

@@ -5,6 +5,7 @@ using System.Text;
 using Handlers;
 using Router;
 using WebReflectorContracts;
+using WebReflectorViews;
 
 namespace WebReflectorApp
 {
@@ -21,7 +22,7 @@ namespace WebReflectorApp
                 listener.Prefixes.Add(String.Format("http://{0}:{1}/", domain, port)); 
                 listener.Start();
 
-                var provider = new HandlerProvider {ContextRootPath = contextRootPath, Domain = domain, Port = port};
+                var provider = new HandlerProvider(contextRootPath, domain, port);
                 RoutesManager router = new RoutesManager(provider);
                 IResponseView errorView = null;
                 bool registrySuccess = router.RegisterHandlerProvider(out errorView);
@@ -46,13 +47,32 @@ namespace WebReflectorApp
                         IResponseView resultView = router.Execute(ctx.Request.Url.AbsolutePath);
                         byte[] viewEncodedBytes = Encoding.Default.GetBytes(resultView.Emit());
 
-                        ctx.Response.StatusCode = 200;
+                        ctx.Response.StatusCode = GetStatusCode(resultView);
                         ctx.Response.ContentType = "text/html";
                         ctx.Response.ContentEncoding = Encoding.Default;
                         ctx.Response.ContentLength64 = viewEncodedBytes.Length;
                         ctx.Response.OutputStream.Write(viewEncodedBytes, 0, viewEncodedBytes.Length);
                         ctx.Response.Close();
                     }
+                }
+            }
+        }
+
+        static int GetStatusCode(IResponseView view)
+        {
+            if (view is InternalErrorView)
+            {
+                return 501;
+            }
+            else
+            {
+                if (view is NotFoundView)
+                {
+                    return 404;
+                }
+                else
+                {
+                    return 200;
                 }
             }
         }

@@ -1,0 +1,16 @@
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\RoutesManager.Tests\bin\Debug\RoutesManager.Tests.dll
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\RoutesManager.Tests\bin\Debug\RoutesManager.Tests.pdb
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\RoutesManager.Tests\bin\Debug\Handlers.dll
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\RoutesManager.Tests\bin\Debug\nunit.framework.dll
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\RoutesManager.Tests\bin\Debug\Router.dll
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\RoutesManager.Tests\bin\Debug\WebReflectorContracts.dll
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\RoutesManager.Tests\bin\Debug\WebReflectorViews.dll
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\RoutesManager.Tests\bin\Debug\HtmlProvider.dll
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\RoutesManager.Tests\bin\Debug\Handlers.pdb
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\RoutesManager.Tests\bin\Debug\Router.pdb
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\RoutesManager.Tests\bin\Debug\WebReflectorContracts.pdb
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\RoutesManager.Tests\bin\Debug\WebReflectorViews.pdb
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\RoutesManager.Tests\bin\Debug\HtmlProvider.pdb
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\RoutesManager.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\RoutesManager.Tests\obj\Debug\RoutesManager.Tests.dll
+C:\PROMPT11\uc01\repos\PROMPT11-01-VMEssentials.luismdcp\TrabalhoFinal\WebReflector\RoutesManager.Tests\obj\Debug\RoutesManager.Tests.pdb

@@ -5,4 +5,6 @@
   <Module PersistentId="417B1526-3DDD-4B1F-930B-CD1F72CF6107" ModuleId="Handlers" />
   <Module PersistentId="7843A1AB-B5FE-4A92-A508-C2077F58F1A3" ModuleId="HtmlProvider" />
   <Module PersistentId="D65C6FB9-6D89-4922-8506-AA8FC533E8A5" ModuleId="Router" />
+  <Module PersistentId="8B9676CB-13C7-4637-9F03-C1EAAC301A0A" ModuleId="Handlers.Tests" />
+  <Module PersistentId="25AE1278-CA84-4FE3-86EC-0EBC775B1E6D" ModuleId="RoutesManager.Tests" />
 </Modules>

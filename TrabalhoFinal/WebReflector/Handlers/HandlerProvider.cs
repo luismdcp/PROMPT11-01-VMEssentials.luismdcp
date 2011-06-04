@@ -7,6 +7,9 @@ using System.Text;
 using WebReflectorContracts;
 using WebReflectorContracts.Attributes;
 using WebReflectorViews;
+using WebReflectorViews.Assembly;
+using WebReflectorViews.Context;
+using WebReflectorViews.TypeViews;
 
 namespace Handlers
 {
@@ -17,138 +20,259 @@ namespace Handlers
         public string Domain { get; set; }
         public string Port { get; set; }
 
-        private List<string> namespacesCache;
+        private readonly List<string> namespacesCache;
 
         public HandlerProvider()
         {
             this.namespacesCache = new List<string>();
         }
 
+        public HandlerProvider(string contextRootPath, string domain, string port) : this()
+        {
+            this.ContextRootPath = contextRootPath;
+            this.Domain = domain;
+            this.Port = port;
+        }
+
         [Handler("/{ctx}/ns/{namespace}/{shortName}/c")]
         public IResponseView ConstructorsHandler(string ctx, string ns, string shortName)
         {
-            Type matchingType = this.CheckType(ctx, ns, shortName, this.ContextRootPath);
+            try
+            {
+                if (Directory.Exists(String.Format("{0}\\{1}", this.ContextRootPath, ctx)))
+                {
+                    if (!this.CheckNamespace(this.ContextRootPath, ctx, ns))
+                    {
+                        return new NotFoundView(String.Format("O Namespace '{0}' não está definido no Contexto '{1}'.", ns, ctx));
+                    }
 
-            if (matchingType != null)
-            {
-                var constructorsInfo = matchingType.GetConstructors(BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy);
-                return new ConstructorsView(constructorsInfo, ctx, ns, shortName, this.ContextRootPath, this.Domain, this.Port);
+                    Type matchingType = this.GetType(ctx, ns, shortName, this.ContextRootPath);
+
+                    if (matchingType != null)
+                    {
+                        var constructorsInfo = matchingType.GetConstructors(BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy);
+                        return new ConstructorsView(constructorsInfo, ctx, ns, shortName, this.ContextRootPath, this.Domain, this.Port);
+                    }
+                    else
+                    {
+                        return new NotFoundView(String.Format("O tipo '{0}' não está definido no Namespace '{1}' e no Contexto '{2}'.", shortName, ns, ctx));
+                    }
+                }
+                else
+                {
+                    return new NotFoundView(String.Format("O directório '{0}' não existe.", String.Format("{0}\\{1}", this.ContextRootPath, ctx)));
+                }
             }
-            else
+            catch (Exception ex)
             {
-                return new NotFoundView(String.Format("O tipo '{0}' não está definido no Namespace '{1} e no Contexto '{2}'.", shortName, ns, ctx));
+                return new InternalErrorView("Erro ao processar os contextos.");
             }
         }
 
         [Handler("/{ctx}/ns/{namespace}/{shortName}/f/{fieldName}")]
         public IResponseView FieldHandler(string ctx, string ns, string shortName, string fieldName)
         {
-            Type matchingType = this.CheckType(ctx, ns, shortName, this.ContextRootPath);
-
-            if (matchingType != null)
+            try
             {
-                var fieldInfo = matchingType.GetField(fieldName, BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy);
-
-                if (fieldInfo != null)
+                if (Directory.Exists(String.Format("{0}\\{1}", this.ContextRootPath, ctx)))
                 {
-                    return new FieldView(fieldInfo, ctx, ns, shortName, this.ContextRootPath, this.Domain, this.Port);
+                    if (!this.CheckNamespace(this.ContextRootPath, ctx, ns))
+                    {
+                        return new NotFoundView(String.Format("O Namespace '{0}' não está definido no Contexto '{1}'.", ns, ctx));
+                    }
+
+                    Type matchingType = this.GetType(ctx, ns, shortName, this.ContextRootPath);
+
+                    if (matchingType != null)
+                    {
+                        var fieldInfo = matchingType.GetField(fieldName, BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy);
+
+                        if (fieldInfo != null)
+                        {
+                            return new FieldView(fieldInfo, ctx, ns, shortName, this.ContextRootPath, this.Domain, this.Port);
+                        }
+                        else
+                        {
+                            return new NotFoundView(String.Format("O campo '{0}' não está definido no tipo '{1}' pertencente ao Namespace '{2}' e ao Contexto '{3}'.", fieldName, shortName, ns, ctx));
+                        }
+                    }
+                    else
+                    {
+                        return new NotFoundView(String.Format("O tipo '{0}' não está definido no Namespace '{1}' e no Contexto '{2}'.", shortName, ns, ctx));
+                    }
                 }
                 else
                 {
-                    return new NotFoundView(String.Format("O campo '{0}' não está definido no tipo '{1}' pertencente ao Namespace '{2}' e ao Contexto '{3}'.", fieldName, shortName, ns, ctx));
+                    return new NotFoundView(String.Format("O directório '{0}' não existe.", String.Format("{0}\\{1}", this.ContextRootPath, ctx)));
                 }
             }
-            else
+            catch (Exception ex)
             {
-                return new NotFoundView(String.Format("O tipo '{0}' não está definido no Namespace '{1} e no Contexto '{2}'.", shortName, ns, ctx));
+                return new InternalErrorView("Erro ao processar os contextos.");
             }
         }
 
         [Handler("/{ctx}/ns/{namespace}/{shortName}/p/{propName}")]
         public IResponseView PropertyHandler(string ctx, string ns, string shortName, string propName)
         {
-            Type matchingType = this.CheckType(ctx, ns, shortName, this.ContextRootPath);
-
-            if (matchingType != null)
+            try
             {
-                var propertyInfo = matchingType.GetProperty(propName, BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy);
-
-                if (propertyInfo != null)
+                if (Directory.Exists(String.Format("{0}\\{1}", this.ContextRootPath, ctx)))
                 {
-                    return new PropertyView(propertyInfo, ctx, ns, shortName, propName, this.ContextRootPath, this.Domain, this.Port);
+                    if (!this.CheckNamespace(this.ContextRootPath, ctx, ns))
+                    {
+                        return new NotFoundView(String.Format("O Namespace '{0}' não está definido no Contexto '{1}'.", ns, ctx));
+                    }
+
+                    Type matchingType = this.GetType(ctx, ns, shortName, this.ContextRootPath);
+
+                    if (matchingType != null)
+                    {
+                        var propertyInfo = matchingType.GetProperty(propName, BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy);
+
+                        if (propertyInfo != null)
+                        {
+                            return new PropertyView(propertyInfo, ctx, ns, shortName, propName, this.ContextRootPath, this.Domain, this.Port);
+                        }
+                        else
+                        {
+                            return new NotFoundView(String.Format("A propriedade '{0}' não está definida no tipo '{1}' pertencente ao Namespace '{2}' e ao Contexto '{3}'.", propName, shortName, ns, ctx));
+                        }
+                    }
+                    else
+                    {
+                        return new NotFoundView(String.Format("O tipo '{0}' não está definido no Namespace '{1}' e no Contexto '{2}'.", shortName, ns, ctx));
+                    }
                 }
                 else
                 {
-                    return new NotFoundView(String.Format("A propriedade '{0}' não está definida no tipo '{1}' pertencente ao Namespace '{2}' e ao Contexto '{3}'.", propName, shortName, ns, ctx));
+                    return new NotFoundView(String.Format("O directório '{0}' não existe.", String.Format("{0}\\{1}", this.ContextRootPath, ctx)));
                 }
             }
-            else
+            catch (Exception ex)
             {
-                return new NotFoundView(String.Format("O tipo '{0}' não está definido no Namespace '{1} e no Contexto '{2}'.", shortName, ns, ctx));
+                return new InternalErrorView("Erro ao processar os contextos.");
             }
         }
 
         [Handler("/{ctx}/ns/{namespace}/{shortName}/e/{eventName}")]
         public IResponseView EventHandler(string ctx, string ns, string shortName, string eventName)
         {
-            Type matchingType = this.CheckType(ctx, ns, shortName, this.ContextRootPath);
-
-            if (matchingType != null)
+            try
             {
-                var eventInfo = matchingType.GetEvent(eventName, BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy);
-
-                if (eventInfo != null)
+                if (Directory.Exists(String.Format("{0}\\{1}", this.ContextRootPath, ctx)))
                 {
-                    return new EventView(eventInfo, ctx, ns, shortName, eventInfo.Name, this.ContextRootPath, this.Domain, this.Port);
+                    if (!this.CheckNamespace(this.ContextRootPath, ctx, ns))
+                    {
+                        return new NotFoundView(String.Format("O Namespace '{0}' não está definido no Contexto '{1}'.", ns, ctx));
+                    }
+
+                    Type matchingType = this.GetType(ctx, ns, shortName, this.ContextRootPath);
+
+                    if (matchingType != null)
+                    {
+                        var eventInfo = matchingType.GetEvent(eventName, BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy);
+
+                        if (eventInfo != null)
+                        {
+                            return new EventView(eventInfo, ctx, ns, shortName, eventInfo.Name, this.ContextRootPath, this.Domain, this.Port);
+                        }
+                        else
+                        {
+                            return new NotFoundView(String.Format("O evento '{0}' não está definido no tipo '{1}' pertencente ao Namespace '{2}' e ao Contexto '{3}'.", eventName, shortName, ns, ctx));
+                        }
+                    }
+                    else
+                    {
+                        return new NotFoundView(String.Format("O tipo '{0}' não está definido no Namespace '{1} e no Contexto '{2}'.", shortName, ns, ctx));
+                    }
                 }
                 else
                 {
-                    return new NotFoundView(String.Format("O evento '{0}' não está definido no tipo '{1}' pertencente ao Namespace '{2}' e ao Contexto '{3}'.", eventName, shortName, ns, ctx));
+                    return new NotFoundView(String.Format("O directório '{0}' não existe.", String.Format("{0}\\{1}", this.ContextRootPath, ctx)));
                 }
             }
-            else
+            catch (Exception ex)
             {
-                return new NotFoundView(String.Format("O tipo '{0}' não está definido no Namespace '{1} e no Contexto '{2}'.", shortName, ns, ctx));
+                return new InternalErrorView("Erro ao processar os contextos.");
             }
         }
 
         [Handler("/{ctx}/ns/{namespace}/{shortName}/m/{methodName}")]
         public IResponseView MethodHandler(string ctx, string ns, string shortName, string methodName)
         {
-            Type matchingType = this.CheckType(ctx, ns, shortName, this.ContextRootPath);
-
-            if (matchingType != null)
+            try
             {
-                var methodsInfo = matchingType.GetMethods(BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy);
-                var methodsInfoQuery = methodsInfo.Where(mi => mi.Name == methodName);
-
-                if (methodsInfoQuery.Count() > 0)
+                if (Directory.Exists(String.Format("{0}\\{1}", this.ContextRootPath, ctx)))
                 {
-                    return new MethodView(methodsInfoQuery, ctx, ns, shortName, methodName, this.ContextRootPath, this.Domain, this.Port);
+                    if (!this.CheckNamespace(this.ContextRootPath, ctx, ns))
+                    {
+                        return new NotFoundView(String.Format("O Namespace '{0}' não está definido no Contexto '{1}'.", ns, ctx));
+                    }
+
+                    Type matchingType = this.GetType(ctx, ns, shortName, this.ContextRootPath);
+
+                    if (matchingType != null)
+                    {
+                        var methodsInfo = matchingType.GetMethods(BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy);
+                        var methodsInfoQuery = methodsInfo.Where(mi => mi.Name == methodName);
+
+                        if (methodsInfoQuery.Count() > 0)
+                        {
+                            return new MethodView(methodsInfoQuery, ctx, ns, shortName, methodName, this.ContextRootPath, this.Domain, this.Port);
+                        }
+                        else
+                        {
+                            return new NotFoundView(String.Format("O método '{0}' não está definido no tipo '{1}' pertencente ao Namespace '{2}' e ao Contexto '{3}'.", methodName, shortName, ns, ctx));
+                        }
+                    }
+                    else
+                    {
+                        return new NotFoundView(String.Format("O tipo '{0}' não está definido no Namespace '{1}' e no Contexto '{2}'.", shortName, ns, ctx));
+                    }
                 }
                 else
                 {
-                    return new NotFoundView(String.Format("O método '{0}' não está definido no tipo '{1}' pertencente ao Namespace '{2}' e ao Contexto '{3}'.", methodName, shortName, ns, ctx));
+                    return new NotFoundView(String.Format("O directório '{0}' não existe.", String.Format("{0}\\{1}", this.ContextRootPath, ctx)));
                 }
             }
-            else
+            catch (Exception ex)
             {
-                return new NotFoundView(String.Format("O tipo '{0}' não está definido no Namespace '{1} e no Contexto '{2}'.", shortName, ns, ctx));
+                return new InternalErrorView("Erro ao processar os contextos.");
             }
         }
 
         [Handler("/{ctx}/ns/{namespace}/{shortName}")]
         public IResponseView TypeHandler(string ctx, string ns, string shortName)
         {
-            Type matchingType = this.CheckType(ctx, ns, shortName, this.ContextRootPath);
+            try
+            {
+                if (Directory.Exists(String.Format("{0}\\{1}", this.ContextRootPath, ctx)))
+                {
+                    if (!this.CheckNamespace(this.ContextRootPath, ctx, ns))
+                    {
+                        return new NotFoundView(String.Format("O Namespace '{0}' não está definido no Contexto '{1}'.", ns, ctx));
+                    }
 
-            if (matchingType != null)
-            {
-                return new TypeView(matchingType, ctx, ns, shortName, this.ContextRootPath, this.Domain, this.Port);
+                    Type matchingType = this.GetType(ctx, ns, shortName, this.ContextRootPath);
+
+                    if (matchingType != null)
+                    {
+                        return new TypeView(matchingType, ctx, ns, shortName, this.ContextRootPath, this.Domain, this.Port);
+                    }
+                    else
+                    {
+                        return new NotFoundView(String.Format("O tipo '{0}' não está definido no Namespace '{1}' e no Contexto '{2}'.", shortName, ns, ctx));
+                    }
+                }
+                else
+                {
+                    return new NotFoundView(String.Format("O directório '{0}' não existe.", String.Format("{0}\\{1}", this.ContextRootPath, ctx)));
+                }
             }
-            else
+            catch (Exception ex)
             {
-                return new NotFoundView(String.Format("O tipo '{0}' não está definido no Namespace '{1} e no Contexto '{2}'.", shortName, ns, ctx));
+                return new InternalErrorView("Erro ao processar os contextos.");
             }
         }
 
@@ -157,8 +281,13 @@ namespace Handlers
         {
             try
             {
-                if (Directory.Exists(this.ContextRootPath + @"\" + ctx))
+                if (Directory.Exists(String.Format("{0}\\{1}", this.ContextRootPath, ctx)))
                 {
+                    if (!this.CheckNamespace(this.ContextRootPath, ctx, namespacePrefix))
+                    {
+                        return new NotFoundView(String.Format("O Namespace '{0}' não está definido no Contexto '{1}'.", namespacePrefix, ctx));
+                    }
+
                     var subNamespaces = this.GetAllSubNamespaces(this.ContextRootPath, ctx, namespacePrefix);
                     var shortNames = this.GetTypesDefinedInNamespace(this.ContextRootPath, ctx, namespacePrefix);
 
@@ -166,7 +295,7 @@ namespace Handlers
                 }
                 else
                 {
-                    return new NotFoundView(String.Format("O directório '{0}' não existe.", this.ContextRootPath + @"\" + ctx));
+                    return new NotFoundView(String.Format("O directório '{0}' não existe.", String.Format("{0}\\{1}", this.ContextRootPath, ctx)));
                 }
             }
             catch (Exception ex)
@@ -180,9 +309,15 @@ namespace Handlers
         {
             try
             {
-                if (Directory.Exists(this.ContextRootPath + @"\" + ctx))
+                if (Directory.Exists(String.Format("{0}\\{1}", this.ContextRootPath, ctx)))
                 {
                     var assembly = this.GetAssembly(ctx, assemblyName, this.ContextRootPath);
+
+                    if (assembly == null)
+                    {
+                        return new NotFoundView(String.Format("A assembly '{0}' não está definida no contexto '{1}'.", assemblyName, ctx));
+                    }
+
                     var publicKeyBytes = assembly.GetName().GetPublicKey();
                     var publicKeyBuffer = new StringBuilder();
 
@@ -191,22 +326,14 @@ namespace Handlers
                         publicKeyBuffer.AppendFormat("{0:x}", charByte);
                     }
 
-                    if (assembly != null)
-                    {
-                        var typesGroupedByNamespace = this.GetAssemblyTypes(assembly);
-                        return new AssemblyView(assembly.GetName().Name,
-                                                publicKeyBuffer.ToString(),
-                                                typesGroupedByNamespace, ctx, assemblyName, this.ContextRootPath, this.Domain,
-                                                this.Port);
-                    }
-                    else
-                    {
-                        return new NotFoundView(String.Format("A assembly '{0}' não está definida no contexto '{1}'.", assemblyName, ctx));
-                    }
+                    var typesGroupedByNamespace = this.GetAssemblyTypes(assembly);
+                    return new AssemblyView(assembly.GetName().Name,
+                                            publicKeyBuffer.ToString(),
+                                            typesGroupedByNamespace, ctx, assemblyName, this.ContextRootPath, this.Domain, this.Port);
                 }
                 else
                 {
-                    return new NotFoundView(String.Format("O directório '{0}' não existe.", this.ContextRootPath + @"\" + ctx));
+                    return new NotFoundView(String.Format("O directório '{0}' não existe.", String.Format("{0}\\{1}", this.ContextRootPath, ctx)));
                 }
             }
             catch (Exception ex)
@@ -220,14 +347,14 @@ namespace Handlers
         {
             try
             {
-                if (Directory.Exists(this.ContextRootPath + @"\" + ctx))
+                if (Directory.Exists(String.Format("{0}\\{1}", this.ContextRootPath, ctx)))
                 {
                     var namespaces = this.GetAllNamespaces(this.ContextRootPath, ctx);
-                    return new ContextNamespaces(namespaces, ctx, this.Domain, this.Port);
+                    return new ContextNamespacesView(namespaces, ctx, this.Domain, this.Port);
                 }
                 else
                 {
-                    return new NotFoundView(String.Format("O directório '{0}' não existe.", this.ContextRootPath + @"\" + ctx));
+                    return new NotFoundView(String.Format("O directório '{0}' não existe.", String.Format("{0}\\{1}", this.ContextRootPath, ctx)));
                 }
             }
             catch (Exception ex)
@@ -241,14 +368,14 @@ namespace Handlers
         {
             try
             {
-                if (Directory.Exists(this.ContextRootPath + @"\" + ctx))
+                if (Directory.Exists(String.Format("{0}\\{1}", this.ContextRootPath, ctx)))
                 {
                     var assemblies = this.GetAllAssemblies(this.ContextRootPath, ctx);
                     return new ContextAssembliesView(assemblies, ctx, this.Domain, this.Port);
                 }
                 else
                 {
-                    return new NotFoundView(String.Format("O directório '{0}' não existe.", this.ContextRootPath + @"\" + ctx));
+                    return new NotFoundView(String.Format("O directório '{0}' não existe.", String.Format("{0}\\{1}", this.ContextRootPath, ctx)));
                 }
             }
             catch (Exception ex)
@@ -262,11 +389,8 @@ namespace Handlers
         {
             try
             {
-                if (Directory.Exists(this.ContextRootPath + @"\" + ctx))
+                if (Directory.Exists(String.Format("{0}\\{1}", this.ContextRootPath, ctx)))
                 {
-                    var assemblies = this.GetAllAssemblies(this.ContextRootPath, ctx);
-                    var namespaces = this.GetAllNamespaces(this.ContextRootPath, ctx);
-
                     return new ContextView(ctx, this.Domain, this.Port);
                 }
                 else
@@ -316,6 +440,11 @@ namespace Handlers
             return this.GetAllNamespaces(contextRootPath, ctx).Where(ns => ns.StartsWith(rootNamespace) && ns != rootNamespace);
         }
 
+        private bool CheckNamespace(string contextRootPath, string ctx, string nmspace)
+        {
+            return this.GetAllNamespaces(contextRootPath, ctx).Any(ns => ns.ToLower() == nmspace.ToLower());
+        }
+
         private IEnumerable<string> GetAllDirectories(string contextRootPath)
         {
             if (Directory.Exists(contextRootPath))
@@ -331,17 +460,18 @@ namespace Handlers
         private Assembly GetAssembly(string ctx, string assemblyName, string contextRootPath)
         {
             IEnumerable<Assembly> assemblies = this.LoadAssemblies(String.Format("{0}\\{1}", contextRootPath, ctx));
-            Assembly asly = null;
+            Assembly asmbly = null;
 
-            foreach (var assembly in assemblies)
+            foreach (var assembly in this.LoadAssemblies(String.Format("{0}\\{1}", contextRootPath, ctx)))
             {
                 if (assembly.GetName().Name == assemblyName)
                 {
-                    asly = assembly;
+                    asmbly = assembly;
+                    break;
                 }
             }
 
-            return asly;
+            return asmbly;
         }
 
         private IEnumerable<IGrouping<string, Type>> GetAssemblyTypes(Assembly asly)
@@ -405,7 +535,7 @@ namespace Handlers
             yield break;
         }
 
-        private Type CheckType(string ctx, string ns, string shortName, string contextRootPath)
+        private Type GetType(string ctx, string ns, string shortName, string contextRootPath)
         {
             IEnumerable<Assembly> assemblies = this.LoadAssemblies(String.Format("{0}\\{1}", contextRootPath, ctx));
             Type matchingType = null;

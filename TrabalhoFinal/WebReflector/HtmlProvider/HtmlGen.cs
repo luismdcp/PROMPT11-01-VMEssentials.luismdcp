@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using HtmlProvider.Element;
 using WebReflectorContracts;
 
 namespace HtmlProvider

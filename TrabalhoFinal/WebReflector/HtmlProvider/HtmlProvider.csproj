@@ -40,12 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EmptyHtmlElement.cs" />
-    <Compile Include="HtmlElement.cs" />
-    <Compile Include="HtmlElementBase.cs" />
+    <Compile Include="Element\EmptyHtmlElement.cs" />
+    <Compile Include="Element\HtmlElement.cs" />
+    <Compile Include="Element\HtmlElementBase.cs" />
     <Compile Include="HtmlGen.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TextHtmlElement.cs" />
+    <Compile Include="Element\TextHtmlElement.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WebReflectorContracts\WebReflectorContracts.csproj">
